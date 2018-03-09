@@ -1,0 +1,16 @@
+:host {
+    padding: 20px 60px;
+    .logo {
+        width: 160px;
+        height: 32px;
+        background: url('../../../../assets/images/logo.png') left top no-repeat;
+        background-size: contain;
+        background-position: 0px 12px;
+    }
+    .home-links {
+        a {
+            font-size: 15px;
+            color: #364A60;
+        }
+    }
+}

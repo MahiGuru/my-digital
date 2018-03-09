@@ -1,0 +1,31 @@
+:host {
+    .footer-area {
+        padding: 20px;
+        background-color: #364A60;
+        height: 100px;
+        width: 100%;
+        .icon {
+            display: flex;
+        }
+        .wh-32 {
+            width: 32px;
+            height: 32px;
+        }
+        .facebook-icon {
+            background: url('../../../../assets/images/facebook.svg') left top no-repeat;
+        }
+        .linked-icon {
+            background: url('../../../../assets/images/linkedin.svg') left top no-repeat;
+        }
+        .twitter-icon {
+            background: url('../../../../assets/images/twitter.svg') left top no-repeat;
+        }
+        .footer-links {
+            a {
+                font-size: 10px;
+                color: #f2f2f2;
+                text-decoration: underline;
+            }
+        }
+    }
+}

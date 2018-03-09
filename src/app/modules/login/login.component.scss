@@ -1,0 +1,26 @@
+:host {
+    h2 {
+        font-size: 24px;
+        span {
+            border-bottom: 2px solid #3C92CA;
+        }
+    }
+    .login-fields {
+        padding-top: 40px;
+        padding-bottom: 80px;
+        width: 300px;
+        .info {
+            width: 20px;
+            height: 20px;
+            background: url('../../../assets/images/info.svg') left top no-repeat;
+            background-size: contain;
+            float: right;
+        }
+        .form-group {
+            padding-bottom: 40px;
+            label {
+                width: 100%;
+            }
+        }
+    }
+}
